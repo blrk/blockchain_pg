@@ -38,4 +38,10 @@ contract DynamicArray{
         	sum = sum + arr[i];
         return sum;
     }
+    //function to delete the data 
+     function clearData() public returns (int)
+    {
+    	delete arr;
+        return arr;
+    }
 }
