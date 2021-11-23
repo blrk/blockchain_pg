@@ -5,8 +5,8 @@ contract SimpleToken {
   mapping (address => uint256) public accounts;
  
   constructor(uint256 initialSupply) public {
-   owner = msg.sender;
-  	accounts[owner] = initialSupply;
+    owner = msg.sender;
+    accounts[owner] = initialSupply;
   }
  
   function transfer(address to, uint256 value) public {
