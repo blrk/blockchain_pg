@@ -5,7 +5,7 @@ contract SimpleToken {
   mapping (address => uint256) public accounts;
  
   constructor(uint256 initialSupply) public {
-owner = msg.sender;
+   owner = msg.sender;
   	accounts[owner] = initialSupply;
   }
  
