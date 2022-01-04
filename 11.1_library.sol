@@ -2,7 +2,7 @@
 
 pragma solidity ^0.5.2;
  
-import "github.com/OpenZeppelin/zeppelin-solidity/contracts/math/SafeMath.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol";
  
 contract Bank {
     mapping(address => uint) public accounts;
